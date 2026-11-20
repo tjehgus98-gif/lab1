@@ -24,10 +24,10 @@
                     case error.PERMISSION_DENIED:
                         document.getElementById("result").innerHTML=" 위치정보에 대한 권한이 없습니다";
                         break;
-                        case error.POSITION_UNAVAILABLE:CurPosition    
+                    case error.POSITION_UNAVAILABLE:CurPosition    
                             document.getElementById("result").innerHTML =" 현재위치 정보를 구할수 없습니다";
                             break;
-                        case error.TIMEOUT:CurPosition  
+                    case error.TIMEOUT:CurPosition  
                             document.getElementById("result").innerHTML="시간제한을 초과했습니다";
                             break;
                 }
